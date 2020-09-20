@@ -12,7 +12,11 @@ class NewDeck extends Component {
   }
   handleSubmit = () => {
     const { dispatch, navigation } = this.props
-    dispatch(handleAddDeck(this.state.title, () => navigation.navigate('Decks')))
+    const { title } = this.state
+
+    this.setState({ title: '' })
+
+    dispatch(handleAddDeck(title, () => navigation.navigate('Deck', { deck: title })))
   }
   render() {
     return <View style={styles.container}>

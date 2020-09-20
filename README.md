@@ -37,3 +37,8 @@ This will start a development server for you.
 
 Install the [Expo](https://expo.io/) client app on your iOS or Android phone and connect to the same wireless network as your computer. On Android, use the Expo app to scan the QR code from your terminal to open your project. On iOS, follow on-screen instructions to get a link.
 
+
+### Platforms Tested
+
+
+This app has been tested on Android platform(physical device) using [Expo](https://expo.io/) client app.
